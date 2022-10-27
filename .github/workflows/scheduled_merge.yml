@@ -21,3 +21,5 @@ jobs:
 
       - name: Scheduled Merge Action
         uses: robsdudeson/scheduled_merge_action@main
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
